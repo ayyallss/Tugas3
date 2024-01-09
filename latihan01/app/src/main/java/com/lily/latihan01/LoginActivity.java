@@ -44,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
             fokus = mViewPassword;
             cancel = true;
         }else if (!cekPassword(password)){
-            mViewPassword.setError("This password is incorrect");  fokus = mViewPassword;
+            mViewPassword.setError("This password is incorrect (Check Again)");  fokus = mViewPassword;
             cancel = true;
         }
         /* Jika cancel true, variable fokus mendapatkan fokus */  if (cancel)
