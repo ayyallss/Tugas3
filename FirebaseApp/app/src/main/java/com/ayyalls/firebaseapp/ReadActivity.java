@@ -92,7 +92,6 @@ public class ReadActivity extends AppCompatActivity implements
     public static Intent getActIntent(Activity activity) {
         return new Intent(activity, ReadActivity.class);
     }
-// bewok
     @Override
     public void onDeleteData(Barang barang, final int position) {
 
@@ -114,4 +113,5 @@ public class ReadActivity extends AppCompatActivity implements
                     });
         }
     }
+    // Menambah kode 2
 }
