@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">latihan01</string>
+
+    <string-array name="kelas">
+        <item>--Select--</item>
+        <item>3SE1</item>
+        <item>3SE2</item>
+        <item>3SE3</item>
+        <item>3SE4</item>
+        <item>3SE5</item>
+    </string-array>
+</resources>
